@@ -1,0 +1,825 @@
+{
+  "configuration": {
+    "it_load_kw": 750,
+    "server_type": "ai",
+    "rack_specs": {
+      "count": 20,
+      "width_ft": 2,
+      "depth_ft": 4,
+      "height_ft": 7,
+      "type": "ai",
+      "power_per_rack_kw": 37.5
+    },
+    "battery_backup_time_min": 10,
+    "num_rows": 2,
+    "electrical_topology": "2N",
+    "cooling_redundancy": "N+1",
+    "hall_width_ft": 80,
+    "hall_length_ft": 120,
+    "customer_name": "AI Research Labs",
+    "allocation_id": "AIR-2025-042"
+  },
+  "calculated_parameters": {
+    "num_pdus": 3,
+    "num_crah_units": 11,
+    "num_ups_units": 4,
+    "num_battery_cabinets": 30,
+    "num_racks": 20,
+    "power_per_rack_kw": 37.5,
+    "total_cooling_capacity_kw": 1100,
+    "total_ups_capacity_kva": 3000,
+    "pue_target": 1.4
+  },
+  "layout_elements": [
+    {
+      "id": "RACK-001",
+      "x": 20,
+      "y": 22,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 1,
+      "tile_x": 10,
+      "tile_y": 11,
+      "orientation": "north"
+    },
+    {
+      "id": "RACK-002",
+      "x": 24,
+      "y": 22,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 1,
+      "tile_x": 12,
+      "tile_y": 11,
+      "orientation": "north"
+    },
+    {
+      "id": "RACK-003",
+      "x": 28,
+      "y": 22,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 1,
+      "tile_x": 14,
+      "tile_y": 11,
+      "orientation": "north"
+    },
+    {
+      "id": "RACK-004",
+      "x": 32,
+      "y": 22,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 1,
+      "tile_x": 16,
+      "tile_y": 11,
+      "orientation": "north"
+    },
+    {
+      "id": "RACK-005",
+      "x": 36,
+      "y": 22,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 1,
+      "tile_x": 18,
+      "tile_y": 11,
+      "orientation": "north"
+    },
+    {
+      "id": "RACK-006",
+      "x": 40,
+      "y": 22,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 1,
+      "tile_x": 20,
+      "tile_y": 11,
+      "orientation": "north"
+    },
+    {
+      "id": "RACK-007",
+      "x": 44,
+      "y": 22,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 1,
+      "tile_x": 22,
+      "tile_y": 11,
+      "orientation": "north"
+    },
+    {
+      "id": "RACK-008",
+      "x": 48,
+      "y": 22,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 1,
+      "tile_x": 24,
+      "tile_y": 11,
+      "orientation": "north"
+    },
+    {
+      "id": "RACK-009",
+      "x": 52,
+      "y": 22,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 1,
+      "tile_x": 26,
+      "tile_y": 11,
+      "orientation": "north"
+    },
+    {
+      "id": "RACK-010",
+      "x": 56,
+      "y": 22,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 1,
+      "tile_x": 28,
+      "tile_y": 11,
+      "orientation": "north"
+    },
+    {
+      "id": "RACK-011",
+      "x": 20,
+      "y": 30,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 2,
+      "tile_x": 10,
+      "tile_y": 15,
+      "orientation": "south"
+    },
+    {
+      "id": "RACK-012",
+      "x": 24,
+      "y": 30,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 2,
+      "tile_x": 12,
+      "tile_y": 15,
+      "orientation": "south"
+    },
+    {
+      "id": "RACK-013",
+      "x": 28,
+      "y": 30,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 2,
+      "tile_x": 14,
+      "tile_y": 15,
+      "orientation": "south"
+    },
+    {
+      "id": "RACK-014",
+      "x": 32,
+      "y": 30,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 2,
+      "tile_x": 16,
+      "tile_y": 15,
+      "orientation": "south"
+    },
+    {
+      "id": "RACK-015",
+      "x": 36,
+      "y": 30,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 2,
+      "tile_x": 18,
+      "tile_y": 15,
+      "orientation": "south"
+    },
+    {
+      "id": "RACK-016",
+      "x": 40,
+      "y": 30,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 2,
+      "tile_x": 20,
+      "tile_y": 15,
+      "orientation": "south"
+    },
+    {
+      "id": "RACK-017",
+      "x": 44,
+      "y": 30,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 2,
+      "tile_x": 22,
+      "tile_y": 15,
+      "orientation": "south"
+    },
+    {
+      "id": "RACK-018",
+      "x": 48,
+      "y": 30,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 2,
+      "tile_x": 24,
+      "tile_y": 15,
+      "orientation": "south"
+    },
+    {
+      "id": "RACK-019",
+      "x": 52,
+      "y": 30,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 2,
+      "tile_x": 26,
+      "tile_y": 15,
+      "orientation": "south"
+    },
+    {
+      "id": "RACK-020",
+      "x": 56,
+      "y": 30,
+      "width": 2,
+      "depth": 4,
+      "height": 7,
+      "power_kw": 37.5,
+      "type": "ai",
+      "temperature": 38.749978973091665,
+      "row": 2,
+      "tile_x": 28,
+      "tile_y": 15,
+      "orientation": "south"
+    },
+    {
+      "id": "CRAH-01",
+      "x": 4,
+      "y": 10.0,
+      "width": 8,
+      "depth": 4,
+      "type": "CRAH",
+      "redundancy": "N+1"
+    },
+    {
+      "id": "CRAH-02",
+      "x": 68,
+      "y": 10.0,
+      "width": 8,
+      "depth": 4,
+      "type": "CRAH",
+      "redundancy": "N+1"
+    },
+    {
+      "id": "CRAH-03",
+      "x": 4,
+      "y": 20.0,
+      "width": 8,
+      "depth": 4,
+      "type": "CRAH",
+      "redundancy": "N+1"
+    },
+    {
+      "id": "CRAH-04",
+      "x": 68,
+      "y": 20.0,
+      "width": 8,
+      "depth": 4,
+      "type": "CRAH",
+      "redundancy": "N+1"
+    },
+    {
+      "id": "CRAH-05",
+      "x": 4,
+      "y": 30.0,
+      "width": 8,
+      "depth": 4,
+      "type": "CRAH",
+      "redundancy": "N+1"
+    },
+    {
+      "id": "CRAH-06",
+      "x": 68,
+      "y": 30.0,
+      "width": 8,
+      "depth": 4,
+      "type": "CRAH",
+      "redundancy": "N+1"
+    },
+    {
+      "id": "CRAH-07",
+      "x": 4,
+      "y": 40.0,
+      "width": 8,
+      "depth": 4,
+      "type": "CRAH",
+      "redundancy": "N+1"
+    },
+    {
+      "id": "CRAH-08",
+      "x": 68,
+      "y": 40.0,
+      "width": 8,
+      "depth": 4,
+      "type": "CRAH",
+      "redundancy": "N+1"
+    },
+    {
+      "id": "CRAH-09",
+      "x": 4,
+      "y": 50.0,
+      "width": 8,
+      "depth": 4,
+      "type": "CRAH",
+      "redundancy": "N+1"
+    },
+    {
+      "id": "CRAH-10",
+      "x": 68,
+      "y": 50.0,
+      "width": 8,
+      "depth": 4,
+      "type": "CRAH",
+      "redundancy": "N+1"
+    },
+    {
+      "id": "CRAH-11",
+      "x": 4,
+      "y": 60.0,
+      "width": 8,
+      "depth": 4,
+      "type": "CRAH",
+      "redundancy": "N+1"
+    },
+    {
+      "id": "PDU-01",
+      "x": 56,
+      "y": 4,
+      "width": 2,
+      "depth": 3,
+      "type": "PDU",
+      "capacity_kw": 375
+    },
+    {
+      "id": "PDU-02",
+      "x": 60,
+      "y": 4,
+      "width": 2,
+      "depth": 3,
+      "type": "PDU",
+      "capacity_kw": 375
+    },
+    {
+      "id": "PDU-03",
+      "x": 64,
+      "y": 4,
+      "width": 2,
+      "depth": 3,
+      "type": "PDU",
+      "capacity_kw": 375
+    },
+    {
+      "id": "UPS-01",
+      "x": 8,
+      "y": 70,
+      "width": 4,
+      "depth": 6,
+      "type": "UPS",
+      "topology": "2N"
+    },
+    {
+      "id": "UPS-02",
+      "x": 14,
+      "y": 70,
+      "width": 4,
+      "depth": 6,
+      "type": "UPS",
+      "topology": "2N"
+    },
+    {
+      "id": "UPS-03",
+      "x": 20,
+      "y": 70,
+      "width": 4,
+      "depth": 6,
+      "type": "UPS",
+      "topology": "2N"
+    },
+    {
+      "id": "UPS-04",
+      "x": 26,
+      "y": 70,
+      "width": 4,
+      "depth": 6,
+      "type": "UPS",
+      "topology": "2N"
+    },
+    {
+      "id": "BAT-01",
+      "x": 36.0,
+      "y": 66,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-02",
+      "x": 40.0,
+      "y": 66,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-03",
+      "x": 44.0,
+      "y": 66,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-04",
+      "x": 48.0,
+      "y": 66,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-05",
+      "x": 36.0,
+      "y": 72,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-06",
+      "x": 40.0,
+      "y": 72,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-07",
+      "x": 44.0,
+      "y": 72,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-08",
+      "x": 48.0,
+      "y": 72,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-09",
+      "x": 36.0,
+      "y": 78,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-10",
+      "x": 40.0,
+      "y": 78,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-11",
+      "x": 44.0,
+      "y": 78,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-12",
+      "x": 48.0,
+      "y": 78,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-13",
+      "x": 36.0,
+      "y": 84,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-14",
+      "x": 40.0,
+      "y": 84,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-15",
+      "x": 44.0,
+      "y": 84,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-16",
+      "x": 48.0,
+      "y": 84,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-17",
+      "x": 36.0,
+      "y": 90,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-18",
+      "x": 40.0,
+      "y": 90,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-19",
+      "x": 44.0,
+      "y": 90,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-20",
+      "x": 48.0,
+      "y": 90,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-21",
+      "x": 36.0,
+      "y": 96,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-22",
+      "x": 40.0,
+      "y": 96,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-23",
+      "x": 44.0,
+      "y": 96,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-24",
+      "x": 48.0,
+      "y": 96,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-25",
+      "x": 36.0,
+      "y": 102.0,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-26",
+      "x": 40.0,
+      "y": 102.0,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-27",
+      "x": 44.0,
+      "y": 102.0,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-28",
+      "x": 48.0,
+      "y": 102.0,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-29",
+      "x": 36.0,
+      "y": 108.0,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    },
+    {
+      "id": "BAT-30",
+      "x": 40.0,
+      "y": 108.0,
+      "width": 3,
+      "depth": 3,
+      "type": "Battery",
+      "runtime_min": 10
+    }
+  ],
+  "aisles": [
+    {
+      "type": "cold",
+      "x_start": 18,
+      "x_end": 60,
+      "y": 16,
+      "height": 6,
+      "serves_rows": [1]
+    },
+    {
+      "type": "hot",
+      "x_start": 18,
+      "x_end": 60,
+      "y": 26,
+      "height": 4,
+      "serves_rows": [1, 2]
+    },
+    {
+      "type": "cold",
+      "x_start": 18,
+      "x_end": 60,
+      "y": 34,
+      "height": 6,
+      "serves_rows": [2]
+    }
+  ],
+  "tile_utilization": {
+    "total_tiles": 2400,
+    "occupied_tiles": 40,
+    "utilization_percent": 1.67
+  },
+  "power_analysis": {
+    "it_load_kw": 750,
+    "cooling_load_kw": 225.00000000000003,
+    "total_facility_load_kw": 1050.0,
+    "power_redundancy": "2N",
+    "cooling_redundancy": "N+1"
+  },
+  "thermal_analysis": {
+    "server_type": "ai",
+    "average_rack_density_kw": 37.5,
+    "cooling_method": "Air Cooling with Cold Aisle Containment",
+    "cfd_recommendation": "Recommended for loads > 15kW per rack"
+  },
+  "compliance": {
+    "pci_compliant_monitoring": true,
+    "insurance_requirements_met": true,
+    "thermal_monitoring": "Per-rack temperature sensors",
+    "access_control": "Cage-based multi-tenant security"
+  },
+  "feasibility": {
+    "status": "REQUIRES_REVIEW",
+    "notes": [
+      "High density deployment - recommend CFD analysis",
+      "AI workload - consider liquid cooling for expansion",
+      "Hot/cold aisle alignment verified per ENERGY STAR guidance"
+    ]
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "metadata": {
+    "type": "thermal_overlay",
+    "grid_resolution_ft": 0.5,
+    "source_model": "output/ai-e2e/model_3d_AIR-2025-042.json",
+    "source_config": "output/ai-e2e/config_AIR-2025-042.json",
+    "source_report": "output/ai-e2e/report_AIR-2025-042.json",
+    "temperature_range": {
+      "min_c": 18.0,
+      "max_c": 38.853931884936266,
+      "mean_c": 20.37950797572912
+    }
+  },
+  "component_temperatures": [
+    {
+      "id": "RACK-001",
+      "type": "rack",
+      "temperature_c": 38.749978973091665,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-002",
+      "type": "rack",
+      "temperature_c": 38.749968700999986,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-003",
+      "type": "rack",
+      "temperature_c": 38.74996868712776,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-004",
+      "type": "rack",
+      "temperature_c": 38.74996868702642,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-005",
+      "type": "rack",
+      "temperature_c": 38.749968687026445,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-006",
+      "type": "rack",
+      "temperature_c": 38.749968687026445,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-007",
+      "type": "rack",
+      "temperature_c": 38.749968687025,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-008",
+      "type": "rack",
+      "temperature_c": 38.749968684791504,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-009",
+      "type": "rack",
+      "temperature_c": 38.74996810623217,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-010",
+      "type": "rack",
+      "temperature_c": 38.749722111996256,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-011",
+      "type": "rack",
+      "temperature_c": 38.7499772448699,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-012",
+      "type": "rack",
+      "temperature_c": 38.749964746629075,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-013",
+      "type": "rack",
+      "temperature_c": 38.74996473156065,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-014",
+      "type": "rack",
+      "temperature_c": 38.749964731464445,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-015",
+      "type": "rack",
+      "temperature_c": 38.74996473146445,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-016",
+      "type": "rack",
+      "temperature_c": 38.74996473146446,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-017",
+      "type": "rack",
+      "temperature_c": 38.74996473146349,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-018",
+      "type": "rack",
+      "temperature_c": 38.74996472981217,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-019",
+      "type": "rack",
+      "temperature_c": 38.74996424164414,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "RACK-020",
+      "type": "rack",
+      "temperature_c": 38.749711806743825,
+      "severity": "high",
+      "power_kw": 37.5
+    },
+    {
+      "id": "CRAH-01",
+      "type": "crah",
+      "temperature_c": 18.0,
+      "severity": "optimal",
+      "power_kw": -100.0
+    },
+    {
+      "id": "CRAH-02",
+      "type": "crah",
+      "temperature_c": 18.0,
+      "severity": "optimal",
+      "power_kw": -100.0
+    },
+    {
+      "id": "CRAH-03",
+      "type": "crah",
+      "temperature_c": 18.0,
+      "severity": "optimal",
+      "power_kw": -100.0
+    },
+    {
+      "id": "CRAH-04",
+      "type": "crah",
+      "temperature_c": 18.0,
+      "severity": "optimal",
+      "power_kw": -100.0
+    },
+    {
+      "id": "CRAH-05",
+      "type": "crah",
+      "temperature_c": 18.0,
+      "severity": "optimal",
+      "power_kw": -100.0
+    },
+    {
+      "id": "CRAH-06",
+      "type": "crah",
+      "temperature_c": 18.0,
+      "severity": "optimal",
+      "power_kw": -100.0
+    },
+    {
+      "id": "CRAH-07",
+      "type": "crah",
+      "temperature_c": 18.0,
+      "severity": "optimal",
+      "power_kw": -100.0
+    },
+    {
+      "id": "CRAH-08",
+      "type": "crah",
+      "temperature_c": 18.0,
+      "severity": "optimal",
+      "power_kw": -100.0
+    },
+    {
+      "id": "CRAH-09",
+      "type": "crah",
+      "temperature_c": 18.0,
+      "severity": "optimal",
+      "power_kw": -100.0
+    },
+    {
+      "id": "CRAH-10",
+      "type": "crah",
+      "temperature_c": 18.0,
+      "severity": "optimal",
+      "power_kw": -100.0
+    },
+    {
+      "id": "CRAH-11",
+      "type": "crah",
+      "temperature_c": 18.0,
+      "severity": "optimal",
+      "power_kw": -100.0
+    },
+    {
+      "id": "PDU-01",
+      "type": "infrastructure",
+      "temperature_c": 19.39996906066534,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "PDU-02",
+      "type": "infrastructure",
+      "temperature_c": 19.394251294776588,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "PDU-03",
+      "type": "infrastructure",
+      "temperature_c": 19.28498929222657,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "UPS-01",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "UPS-02",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "UPS-03",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "UPS-04",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-01",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-02",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-03",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-04",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-05",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-06",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-07",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-08",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-09",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-10",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-11",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-12",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-13",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-14",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-15",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-16",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-17",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-18",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-19",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    },
+    {
+      "id": "BAT-20",
+      "type": "infrastructure",
+      "temperature_c": 19.4,
+      "severity": "optimal",
+      "power_kw": 2.0
+    }
+  ]
+}

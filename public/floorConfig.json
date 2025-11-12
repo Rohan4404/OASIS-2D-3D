@@ -1,0 +1,320 @@
+{
+  "grid": {
+    "rows": 18,
+    "cols": 40,
+    "tileSize": 40,
+    "unit": "ft",
+    "tilePhysicalSize": 2
+  },
+  "layout": {
+    "pattern": "double-row",
+    "orientation": "north",
+    "spacing": {
+      "rowGap": 1,
+      "columnGap": 1
+    }
+  },
+
+  "elements": [
+    {
+      "id": "rack-01",
+      "type": "rack",
+      "x": 11,
+      "y": 6,
+      "width": 1,
+      "height": 2,
+      "orientation": "north",
+      "label": "001",
+      "metadata": { "power": "5 kW", "temp": "22°C", "status": "Active" }
+    },
+    {
+      "id": "rack-02",
+      "type": "rack",
+      "x": 12,
+      "y": 6,
+      "width": 1,
+      "height": 2,
+      "orientation": "north",
+      "label": "002",
+      "metadata": { "power": "5 kW", "temp": "22°C", "status": "Active" }
+    },
+    {
+      "id": "rack-03",
+      "type": "rack",
+      "x": 13,
+      "y": 6,
+      "width": 1,
+      "height": 2,
+      "orientation": "north",
+      "label": "003"
+    },
+    {
+      "id": "rack-04",
+      "type": "rack",
+      "x": 14,
+      "y": 6,
+      "width": 1,
+      "height": 2,
+      "orientation": "north",
+      "label": "004"
+    },
+    {
+      "id": "rack-05",
+      "type": "rack",
+      "x": 15,
+      "y": 6,
+      "width": 1,
+      "height": 2,
+      "label": "005"
+    },
+    {
+      "id": "rack-06",
+      "type": "rack",
+      "x": 16,
+      "y": 6,
+      "width": 1,
+      "height": 2,
+      "label": "006"
+    },
+    {
+      "id": "rack-07",
+      "type": "rack",
+      "x": 11,
+      "y": 11,
+      "width": 1,
+      "height": 2,
+      "label": "007"
+    },
+    {
+      "id": "rack-08",
+      "type": "rack",
+      "x": 12,
+      "y": 11,
+      "width": 1,
+      "height": 2,
+      "label": "008"
+    },
+    {
+      "id": "rack-09",
+      "type": "rack",
+      "x": 13,
+      "y": 11,
+      "width": 1,
+      "height": 2,
+      "label": "009"
+    },
+    {
+      "id": "rack-10",
+      "type": "rack",
+      "x": 14,
+      "y": 11,
+      "width": 1,
+      "height": 2,
+      "label": "010"
+    },
+    {
+      "id": "rack-11",
+      "type": "rack",
+      "x": 15,
+      "y": 11,
+      "width": 1,
+      "height": 2,
+      "label": "011"
+    },
+    {
+      "id": "rack-12",
+      "type": "rack",
+      "x": 16,
+      "y": 11,
+      "width": 1,
+      "height": 2,
+      "label": "012"
+    },
+    {
+      "id": "rack-13",
+      "type": "rack",
+      "x": 11,
+      "y": 15,
+      "width": 1,
+      "height": 2,
+      "label": "013"
+    },
+    {
+      "id": "rack-14",
+      "type": "rack",
+      "x": 12,
+      "y": 15,
+      "width": 1,
+      "height": 2,
+      "label": "014"
+    },
+    {
+      "id": "rack-15",
+      "type": "rack",
+      "x": 13,
+      "y": 15,
+      "width": 1,
+      "height": 2,
+      "label": "015"
+    },
+    {
+      "id": "rack-16",
+      "type": "rack",
+      "x": 14,
+      "y": 15,
+      "width": 1,
+      "height": 2,
+      "label": "016"
+    },
+    {
+      "id": "rack-17",
+      "type": "rack",
+      "x": 15,
+      "y": 15,
+      "width": 1,
+      "height": 2,
+      "label": "017"
+    },
+    {
+      "id": "rack-18",
+      "type": "rack",
+      "x": 16,
+      "y": 15,
+      "width": 1,
+      "height": 2,
+      "label": "018"
+    },
+    {
+      "id": "crah-01",
+      "type": "crah",
+      "x": 3,
+      "y": 6,
+      "width": 3,
+      "height": 2,
+      "label": "CRAH-01"
+    },
+    {
+      "id": "crah-02",
+      "type": "crah",
+      "x": 3,
+      "y": 10,
+      "width": 3,
+      "height": 2,
+      "label": "CRAH-02"
+    },
+    {
+      "id": "crah-03",
+      "type": "crah",
+      "x": 3,
+      "y": 14,
+      "width": 3,
+      "height": 2,
+      "label": "CRAH-03"
+    },
+    {
+      "id": "crah-04",
+      "type": "crah",
+      "x": 22,
+      "y": 6,
+      "width": 3,
+      "height": 2,
+      "label": "CRAH-04"
+    },
+    {
+      "id": "crah-05",
+      "type": "crah",
+      "x": 22,
+      "y": 10,
+      "width": 3,
+      "height": 2,
+      "label": "CRAH-05"
+    },
+    {
+      "id": "crah-06",
+      "type": "crah",
+      "x": 22,
+      "y": 14,
+      "width": 3,
+      "height": 2,
+      "label": "CRAH-06"
+    },
+    {
+      "id": "pdu-01",
+      "type": "pdu",
+      "x": 5,
+      "y": 2,
+      "width": 2,
+      "height": 2,
+      "label": "PDU-01"
+    },
+    {
+      "id": "ups-01",
+      "type": "ups",
+      "x": 30,
+      "y": 5,
+      "width": 4,
+      "height": 3,
+      "label": "UPS-01"
+    },
+    {
+      "id": "bat-01",
+      "type": "battery",
+      "x": 30,
+      "y": 12,
+      "width": 2,
+      "height": 2,
+      "label": "BAT-01"
+    }
+  ],
+
+  "cfdLayers": [
+    {
+      "id": "cfd-hotzone",
+      "type": "polygon",
+      "label": "Hot Zone",
+      "associatedRacks": ["rack-01", "rack-02", "rack-03"],
+      "contours": [
+        {
+          "temp": 28,
+          "color": "hsl(0, 90%, 55%)",
+          "points": [
+            { "x": 430, "y": 240 },
+            { "x": 600, "y": 240 },
+            { "x": 600, "y": 300 },
+            { "x": 430, "y": 300 }
+          ]
+        },
+        {
+          "temp": 26,
+          "color": "hsl(40, 90%, 55%)",
+          "points": [
+            { "x": 400, "y": 220 },
+            { "x": 630, "y": 220 },
+            { "x": 630, "y": 320 },
+            { "x": 400, "y": 320 }
+          ]
+        },
+        {
+          "temp": 24,
+          "color": "hsl(80, 85%, 55%)",
+          "points": [
+            { "x": 370, "y": 200 },
+            { "x": 660, "y": 200 },
+            { "x": 660, "y": 340 },
+            { "x": 370, "y": 340 }
+          ]
+        },
+        {
+          "temp": 22,
+          "color": "hsl(140, 80%, 55%)",
+          "points": [
+            { "x": 340, "y": 180 },
+            { "x": 690, "y": 180 },
+            { "x": 690, "y": 360 },
+            { "x": 340, "y": 360 }
+          ]
+        }
+      ]
+    }
+  ]
+}

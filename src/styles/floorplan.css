@@ -1,0 +1,29 @@
+/* src/styles/floorplan.css */
+
+.floorplan-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  overflow: auto;
+  background: #ffffff;
+}
+
+/* small text styles inside svg */
+svg text {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 11px;
+  fill: #222;
+}
+
+/* tooltip card (if rendered in html instead of svg) */
+/* but we render within SVG; keep this for any html tooltip fallback */
+.tooltip-card {
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}

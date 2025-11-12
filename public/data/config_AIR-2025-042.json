@@ -1,0 +1,20 @@
+{
+  "it_load_kw": 750,
+  "server_type": "ai",
+  "rack_specs": {
+    "count": 20,
+    "width_ft": 2,
+    "depth_ft": 4,
+    "height_ft": 7,
+    "type": "ai",
+    "power_per_rack_kw": 37.5
+  },
+  "battery_backup_time_min": 10,
+  "num_rows": 2,
+  "electrical_topology": "2N",
+  "cooling_redundancy": "N+1",
+  "hall_width_ft": 80,
+  "hall_length_ft": 120,
+  "customer_name": "AI Research Labs",
+  "allocation_id": "AIR-2025-042"
+}

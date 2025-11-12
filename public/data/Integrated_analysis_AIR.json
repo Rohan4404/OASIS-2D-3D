@@ -1,0 +1,302 @@
+{
+  "analysis_id": "AIR-2025-042",
+  "customer": "AI Research Labs",
+  "timestamp": "2025-10-28 14:40:48",
+  "infrastructure_summary": {
+    "it_load_kw": 750,
+    "server_type": "ai",
+    "rack_count": 20,
+    "power_per_rack_kw": 37.5,
+    "electrical_topology": "2N",
+    "cooling_redundancy": "N+1",
+    "pue_target": 1.4
+  },
+  "space_utilization": {
+    "total_tiles": 2400,
+    "occupied_tiles": 40,
+    "utilization_percent": 1.67
+  },
+  "thermal_analysis": {
+    "temperature_statistics": {
+      "min_celsius": 18.0,
+      "max_celsius": 38.853931884936266,
+      "mean_celsius": 20.37950797572912,
+      "std_deviation": 4.089152848910259
+    },
+    "hot_spots": [
+      {
+        "location": {
+          "x": 20.0,
+          "y": 22.0
+        },
+        "temperature": 38.749978973091665,
+        "severity": "high",
+        "component_id": "RACK-001"
+      },
+      {
+        "location": {
+          "x": 24.0,
+          "y": 22.0
+        },
+        "temperature": 38.749968700999986,
+        "severity": "high",
+        "component_id": "RACK-002"
+      },
+      {
+        "location": {
+          "x": 28.0,
+          "y": 22.0
+        },
+        "temperature": 38.74996868712776,
+        "severity": "high",
+        "component_id": "RACK-003"
+      },
+      {
+        "location": {
+          "x": 32.0,
+          "y": 22.0
+        },
+        "temperature": 38.74996868702642,
+        "severity": "high",
+        "component_id": "RACK-004"
+      },
+      {
+        "location": {
+          "x": 36.0,
+          "y": 22.0
+        },
+        "temperature": 38.749968687026445,
+        "severity": "high",
+        "component_id": "RACK-005"
+      },
+      {
+        "location": {
+          "x": 40.0,
+          "y": 22.0
+        },
+        "temperature": 38.749968687026445,
+        "severity": "high",
+        "component_id": "RACK-006"
+      },
+      {
+        "location": {
+          "x": 44.0,
+          "y": 22.0
+        },
+        "temperature": 38.749968687025,
+        "severity": "high",
+        "component_id": "RACK-007"
+      },
+      {
+        "location": {
+          "x": 48.0,
+          "y": 22.0
+        },
+        "temperature": 38.749968684791504,
+        "severity": "high",
+        "component_id": "RACK-008"
+      },
+      {
+        "location": {
+          "x": 52.0,
+          "y": 22.0
+        },
+        "temperature": 38.74996810623217,
+        "severity": "high",
+        "component_id": "RACK-009"
+      },
+      {
+        "location": {
+          "x": 56.0,
+          "y": 22.0
+        },
+        "temperature": 38.749722111996256,
+        "severity": "high",
+        "component_id": "RACK-010"
+      },
+      {
+        "location": {
+          "x": 20.0,
+          "y": 30.0
+        },
+        "temperature": 38.7499772448699,
+        "severity": "high",
+        "component_id": "RACK-011"
+      },
+      {
+        "location": {
+          "x": 24.0,
+          "y": 30.0
+        },
+        "temperature": 38.749964746629075,
+        "severity": "high",
+        "component_id": "RACK-012"
+      },
+      {
+        "location": {
+          "x": 28.0,
+          "y": 30.0
+        },
+        "temperature": 38.74996473156065,
+        "severity": "high",
+        "component_id": "RACK-013"
+      },
+      {
+        "location": {
+          "x": 32.0,
+          "y": 30.0
+        },
+        "temperature": 38.749964731464445,
+        "severity": "high",
+        "component_id": "RACK-014"
+      },
+      {
+        "location": {
+          "x": 36.0,
+          "y": 30.0
+        },
+        "temperature": 38.74996473146445,
+        "severity": "high",
+        "component_id": "RACK-015"
+      },
+      {
+        "location": {
+          "x": 40.0,
+          "y": 30.0
+        },
+        "temperature": 38.74996473146446,
+        "severity": "high",
+        "component_id": "RACK-016"
+      },
+      {
+        "location": {
+          "x": 44.0,
+          "y": 30.0
+        },
+        "temperature": 38.74996473146349,
+        "severity": "high",
+        "component_id": "RACK-017"
+      },
+      {
+        "location": {
+          "x": 48.0,
+          "y": 30.0
+        },
+        "temperature": 38.74996472981217,
+        "severity": "high",
+        "component_id": "RACK-018"
+      },
+      {
+        "location": {
+          "x": 52.0,
+          "y": 30.0
+        },
+        "temperature": 38.74996424164414,
+        "severity": "high",
+        "component_id": "RACK-019"
+      },
+      {
+        "location": {
+          "x": 56.0,
+          "y": 30.0
+        },
+        "temperature": 38.749711806743825,
+        "severity": "high",
+        "component_id": "RACK-020"
+      }
+    ],
+    "cold_spots": [],
+    "thermal_zones": 58
+  },
+  "risk_assessment": [
+    {
+      "type": "thermal_critical",
+      "severity": "high",
+      "description": "Critical temperatures detected (>38.9\u00b0C)",
+      "mitigation": "Immediate cooling upgrade required"
+    },
+    {
+      "type": "power_density",
+      "severity": "high",
+      "description": "High power density (37.5kW/rack)",
+      "mitigation": "Consider liquid cooling or reduced density"
+    }
+  ],
+  "recommendations": {
+    "thermal": [
+      {
+        "type": "high_density_cooling",
+        "priority": "high",
+        "description": "Consider liquid cooling for 20 high-density racks (>20kW)",
+        "affected_components": [
+          "RACK-001",
+          "RACK-002",
+          "RACK-003",
+          "RACK-004",
+          "RACK-005",
+          "RACK-006",
+          "RACK-007",
+          "RACK-008",
+          "RACK-009",
+          "RACK-010",
+          "RACK-011",
+          "RACK-012",
+          "RACK-013",
+          "RACK-014",
+          "RACK-015",
+          "RACK-016",
+          "RACK-017",
+          "RACK-018",
+          "RACK-019",
+          "RACK-020"
+        ]
+      },
+      {
+        "type": "hot_spot_mitigation",
+        "priority": "medium",
+        "description": "Address 20 hot spots with additional spot cooling or containment",
+        "affected_components": [
+          "RACK-001",
+          "RACK-002",
+          "RACK-003",
+          "RACK-004",
+          "RACK-005",
+          "RACK-006",
+          "RACK-007",
+          "RACK-008",
+          "RACK-009",
+          "RACK-010",
+          "RACK-011",
+          "RACK-012",
+          "RACK-013",
+          "RACK-014",
+          "RACK-015",
+          "RACK-016",
+          "RACK-017",
+          "RACK-018",
+          "RACK-019",
+          "RACK-020"
+        ]
+      },
+      {
+        "type": "containment",
+        "priority": "medium",
+        "description": "Implement cold aisle containment for improved efficiency",
+        "benefit": "10-20% cooling efficiency improvement"
+      }
+    ],
+    "infrastructure": [
+      {
+        "type": "cooling_upgrade",
+        "priority": "high",
+        "description": "Deploy rear-door heat exchangers for AI racks",
+        "benefit": "30-40% cooling efficiency improvement"
+      }
+    ]
+  },
+  "feasibility": {
+    "overall_status": "REQUIRES_IMMEDIATE_REVIEW",
+    "risk_level": "HIGH",
+    "approval_recommendation": "Requires engineering review and CFD validation"
+  }
+}
