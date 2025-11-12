@@ -35,9 +35,9 @@ export default function MetadataLayer({ hover }) {
           Power: {item.metadata.power}
         </text>
       )}
-      {item.metadata?.temp && (
+      {item.metadata?.temperature && (
         <text x={x + 10} y={y + 52} fontSize="11" fill="#333">
-          Temp: {item.metadata.temp}
+          Temp: {item.metadata.temperature}
         </text>
       )}
       {item.metadata?.status && (
