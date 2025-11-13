@@ -210,6 +210,8 @@
 // export default function ThermalHeatmapLayer({ grid, elements }) {
 //   if (!elements || elements.length === 0) return null;
 
+//   console.log("grid is0", grid);
+
 //   const tileSize = grid.tileSize;
 //   const cols = grid.cols;
 //   const rows = grid.rows;
@@ -347,12 +349,14 @@
 
 import React from "react";
 
-export default function ThermalHeatmapLayer({ grid, elements }) {
+export default function ThermalHeatmapLayer({ grid, elements, zones }) {
   if (!elements || elements.length === 0) return null;
 
   const tileSize = grid.tileSize;
   const cols = grid.cols;
   const rows = grid.rows;
+
+  console.log("zones are ", zones);
 
   // Parse temperature safely
   const parseTemp = (tempValue) => {

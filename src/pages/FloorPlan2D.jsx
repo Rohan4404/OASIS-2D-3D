@@ -348,7 +348,11 @@ export default function FloorPlan2D() {
           <GridLayer grid={grid} />
           {renderLabels()}
           {showThermal && (
-            <ThermalHeatmapLayer grid={grid} elements={elements} />
+            <ThermalHeatmapLayer
+              grid={grid}
+              elements={elements}
+              zones={zones}
+            />
           )}
           {/* Zones */}
           {/* {zones.map((z) => (
